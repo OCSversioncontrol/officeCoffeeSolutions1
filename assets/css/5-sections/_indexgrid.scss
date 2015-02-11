@@ -4,20 +4,15 @@
 
 #content {
     margin: 4em 0 4em 0 !important;
-    @include outer-container;
 }
+
 .grid-items {
   ///////////////////////////////////////////////////////////////////////////////////
   $base-accent-color: $ocs-red !default;
   $base-background-color: white !default;
   $medium-screen: em(640) !default;
-  $large-screen: em(860) !default;
-  @include span-columns(10);
-  @include shift(2);
-  @include desktop {
-        @include span-columns(13);
-        @shift(0);
-}
+  $large-screen: em(860) !default; 
+
   p {
     line-height: 1.5em;
   }
@@ -28,9 +23,9 @@
   //////////////////////////////////////////////////////////////////////////////////
 
   $grid-items-background: $base-background-color;
-  $grid-item-background: desaturate($base-accent-color, 30%);
+  $grid-item-background: desaturate($base-accent-color, 1%);
   $grid-item-colors: 
-    desaturate($base-accent-color, 30%), 
+    desaturate($base-accent-color, 10%), 
     $ocs-red, 
     $ocs-black,
     $ocs-black,
@@ -60,7 +55,6 @@
     padding: 2em;
     text-align: center;
     width: 100%;
-    
 
     @include media($large-screen) {
       @include grid-item-columns($grid-item-columns);
@@ -70,11 +64,11 @@
       &:nth-child(#{$i}) {
         $background-from-list: nth($grid-item-colors, $i);
         background-color: $background-from-list;
-        box-shadow: inset 0px 0px 1px 2px darken($background-from-list, 10%);
+        box-shadow: inset 0px 0px 2px 3px darken($background-from-list, 5%);
 
         &:focus,
         &:hover {
-          background-color: darken($background-from-list, 10%);
+          background-color: darken($background-from-list, 90%);
           background-repeat: no-repeat;
           background-position: top;
           background-size: cover;
@@ -127,6 +121,15 @@
     background-position: middle;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    &:focus,
+    &:hover {
+          background: none;
+          background-color: darken($ocs-red, 100%);
+          background-repeat: no-repeat;
+          background-position: top;
+          background-size: cover;
+        }
   }
 }
 #black h1 p {

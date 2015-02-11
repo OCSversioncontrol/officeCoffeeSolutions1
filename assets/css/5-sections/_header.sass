@@ -1,6 +1,10 @@
 +tablet
     header
         display: none
+    
+    .content
+        position: relative
+        z-index: 0
         
     a, sidebar, ul 
         font-family: $ocsHeadFont
@@ -8,12 +12,14 @@
         padding: 0
         
     .logo
-        z-index: 0
-        width: 15em
-        height: auto
-        margin-left: 49px
-        vertical-align: top
-        +position(absolute, 15px null null 100px)
+        z-index: -1
+        +display(flex)
+        justify-content: center
+        
+        img
+            width: 90%
+        &:hover
+            color: yellow
 
     .button
         z-index: 1
@@ -50,18 +56,30 @@
         box-shadow: 3px 0 5px $ocs-black
         ul li 
             transition: .3s
-            &:hover 
-                color: yellow
-                background-color: $ocs-black
-
+            &:after
+                content: ""
+                height: 100%
+                left: 0
+                top: 0
+                width: 0px
+                position: absolute 
+                transition: all 0.3s ease 0s 
+                -webkit-transition: all 0.3s ease 0s
+                z-index: -1
         ul li a 
             color: $ocs-offwhite
             display: block
             text-decoration: none
             padding: 20px 20px
             transition: .3s
+            border-left: 35px solid $ocs-black
             &:hover a 
                 color: $ocs-offwhite
+    .hvr-sweep-to-right:after
+        transition-duration: 2s
+    
+    .hvr-sweep-to-right:before
+        background: $ocs-black
 
     .button:focus + #sidebar 
         transform: translate(0px, 0)
@@ -116,15 +134,7 @@
             margin: 0
 
             &:hover
-                color: rgba(242, 242, 242, 242)
-                text-decoration: none
-                background-color: $ocs-red
-                padding: 1px 20px 1px 20px
-                transition: 200ms ease-in
-                transition-property: initial
-                transition-duration: 200ms
-                transition-timing-function: ease-in
-                transition-delay: initial
+
 
         .nav-design
             color: black
@@ -157,14 +167,14 @@
             color: $ocs-red
             &:hover
                 color: $ocs-black
-
+            
         .free-trial a
+            font-size: 26px
             background-color: rgba(242, 42, 42, 1)
             text-align: center
-            padding: 1px 15px 1px 15px
+            padding: 4px 20px 9px 20px
             color: white
             &:hover
                 background-color: $ocs-black
                 color: $ocs-red
-                padding: 1px 15px 1px 15px
-        
+                padding: 4px 20px 9px 20px        

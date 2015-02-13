@@ -55,7 +55,11 @@
         transition: .3s
         box-shadow: 3px 0 5px $ocs-black
         ul li 
-            transition: .3s
+            transition: .3s 
+            border-left: 35px solid $ocs-black
+            border-bottom: 1px solid $ocs-offwhite
+
+
             &:after
                 content: ""
                 height: 100%
@@ -66,20 +70,44 @@
                 transition: all 0.3s ease 0s 
                 -webkit-transition: all 0.3s ease 0s
                 z-index: -1
+
+            
         ul li a 
             color: $ocs-offwhite
             display: block
+            font-size: 1.3em
+            line-height: 102%
             text-decoration: none
             padding: 20px 20px
             transition: .3s
-            border-left: 35px solid $ocs-black
+            
             &:hover a 
                 color: $ocs-offwhite
+        .social-side-contain
+            margin-left: 2px
+            margin-top: 10px
+
+        .sidebar-head
+            margin-top: 10px
+
+        #social-side
+            +size(37px)
+            rect
+                fill: $ocs-red
+                &:hover
+                    fill: $ocs-black
+          
     .hvr-sweep-to-right:after
         transition-duration: 2s
     
     .hvr-sweep-to-right:before
-        background: $ocs-black
+        background: $ocs-black 
+
+    .icon-mobile       
+        width: 20px
+        height: 20px
+        padding-right: 20px
+        margin-left: -25px
 
     .button:focus + #sidebar 
         transform: translate(0px, 0)
@@ -106,7 +134,7 @@
 
     header
         display: flex
-        background-color: rgba(242, 242, 242, 242)
+        background-color: rgba(242, 242, 242, 1)
         background-size: 100px
         flex-direction: row
         flex-wrap: wrap
@@ -133,9 +161,6 @@
             color: black
             margin: 0
 
-            &:hover
-
-
         .nav-design
             color: black
             justify-content: center
@@ -155,7 +180,7 @@
             font-family: 'FuturaHead'
             font-size: 26px
             text-transform: uppercase
-            background-color: rgba(242, 242, 242, 242)
+            background-color: rgba(242, 242, 242, 1)
             padding-top: 35px
             color: black
             flex-direction: column

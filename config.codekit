@@ -166,6 +166,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/css\/bgimg\/hero.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.82217e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/hero.jpeg",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/hero.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/css\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -223,6 +234,72 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/assets\/js\/min\/functions.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions.min.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/min\/functions.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/img\/c9e42240.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 710641,
+		"inputAbbreviatedPath": "\/_site\/img\/c9e42240.jpeg",
+		"outputAbbreviatedPath": "\/_site\/img\/c9e42240.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/E5KMvPp9SsCnqmEGUwAS_2014-08-10 12.56.40 1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109767,
+		"inputAbbreviatedPath": "\/_site\/img\/E5KMvPp9SsCnqmEGUwAS_2014-08-10 12.56.40 1.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/E5KMvPp9SsCnqmEGUwAS_2014-08-10 12.56.40 1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589695,
+		"inputAbbreviatedPath": "\/_site\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/hero.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.82217e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/hero.jpeg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/photo-1418479631014-8cbf89db3431.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 995986,
+		"inputAbbreviatedPath": "\/_site\/img\/photo-1418479631014-8cbf89db3431.jpeg",
+		"outputAbbreviatedPath": "\/_site\/img\/photo-1418479631014-8cbf89db3431.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -3940,6 +4017,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/css\/bgimg\/hero.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.82217e+06,
+		"inputAbbreviatedPath": "\/assets\/css\/bgimg\/hero.jpeg",
+		"outputAbbreviatedPath": "\/assets\/css\/bgimg\/hero.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4008,6 +4096,61 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/img\/c9e42240.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 710641,
+		"inputAbbreviatedPath": "\/img\/c9e42240.jpeg",
+		"outputAbbreviatedPath": "\/img\/c9e42240.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/E5KMvPp9SsCnqmEGUwAS_2014-08-10 12.56.40 1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109767,
+		"inputAbbreviatedPath": "\/img\/E5KMvPp9SsCnqmEGUwAS_2014-08-10 12.56.40 1.jpg",
+		"outputAbbreviatedPath": "\/img\/E5KMvPp9SsCnqmEGUwAS_2014-08-10 12.56.40 1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589695,
+		"inputAbbreviatedPath": "\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputAbbreviatedPath": "\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.82217e+06,
+		"inputAbbreviatedPath": "\/img\/hero.jpeg",
+		"outputAbbreviatedPath": "\/img\/hero.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/photo-1418479631014-8cbf89db3431.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 995986,
+		"inputAbbreviatedPath": "\/img\/photo-1418479631014-8cbf89db3431.jpeg",
+		"outputAbbreviatedPath": "\/img\/photo-1418479631014-8cbf89db3431.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,

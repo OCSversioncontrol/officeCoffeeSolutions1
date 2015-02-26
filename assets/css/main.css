@@ -3574,18 +3574,12 @@ sidebar {
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
-<<<<<<< HEAD
     height: 150px; }
     .logo img {
       -webkit-flex-grow: 3;
       -moz-flex-grow: 3;
       flex-grow: 3;
       -ms-flex-positive: 3; }
-=======
-    justify-content: center; }
-    .logo img {
-      width: 90%; }
->>>>>>> origin/master
     .logo:hover {
       color: yellow; }
 
@@ -3621,6 +3615,8 @@ sidebar {
     transform: translate(-250px, 0);
     transition: 0.3s;
     box-shadow: 3px 0 5px #211915; }
+    #sidebar ul li {
+      transition: 0.3s; }
     #sidebar ul li {
       transition: 0.3s;
       border-left: 40px solid #211915;
@@ -3694,7 +3690,6 @@ sidebar {
     display: none; }
 
   header {
-<<<<<<< HEAD
     display: -webkit-box;
     display: -moz-box;
     display: box;
@@ -3736,27 +3731,11 @@ sidebar {
     .logo img {
       margin-top: 4px;
       width: 95%; }
-=======
-    display: flex;
-    background-color: #f2f2f2;
-    background-size: 100px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    z-index: 0; }
-
-  .logo {
-    width: 20vw;
-    position: absolute; }
-    .logo img {
-      margin-bottom: -130px; }
->>>>>>> origin/master
 
   nav {
     margin: 5px 0 0 40px;
     padding: 0 0 0 35px;
     color: black;
-<<<<<<< HEAD
     -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
     box-orient: horizontal;
@@ -3770,9 +3749,6 @@ sidebar {
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-=======
-    flex-direction: row;
->>>>>>> origin/master
     flex-wrap: wrap;
     justify-content: center; }
     nav a {
@@ -3796,11 +3772,7 @@ sidebar {
       font-family: "FuturaHead";
       font-size: 26px;
       text-transform: uppercase;
-<<<<<<< HEAD
       background-color: white;
-=======
-      background-color: #f2f2f2;
->>>>>>> origin/master
       padding-top: 35px;
       color: black;
       flex-direction: column;
@@ -3890,7 +3862,6 @@ sidebar {
     max-width: 35em;
     text-align: center; }
 
-<<<<<<< HEAD
 #ocs_footer {
   -webkit-animation: play 3s ease-in-out infinite;
   -moz-animation: play 3s ease-in-out infinite;
@@ -3929,16 +3900,10 @@ sidebar {
 .hero {
   background: url("../css/bgimg/hero1.jpg"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat center center #7F99BE scroll;
   background: url("../css/bgimg/hero1.jpg"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat center center #7F99BE scroll;
-=======
-.hero {
-  background: url("../css/bgimg/hero.jpeg"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat center #7F99BE scroll;
-  background: url("../css/bgimg/hero.jpeg"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat center #7F99BE scroll;
->>>>>>> origin/master
   background-color: #324766;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
   padding-bottom: 14em; }
   .hero .hero-logo img {
     width: 700px;
@@ -3952,12 +3917,6 @@ sidebar {
     @media screen and (min-width: 53.75em) {
       .hero .hero-logo img {
         margin-bottom: -2em; } }
-=======
-  padding-bottom: 3em; }
-  .hero .hero-logo img {
-    height: 4em;
-    margin-bottom: 2em; }
->>>>>>> origin/master
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;
@@ -3977,20 +3936,12 @@ sidebar {
     .hero .hero-inner .hero-copy {
       text-align: center; }
       .hero .hero-inner .hero-copy h1 {
-<<<<<<< HEAD
         font-size: 2.5em;
         margin-bottom: 0.5em;
         color: white; }
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy h1 {
             font-size: 3em; } }
-=======
-        font-size: 1.6em;
-        margin-bottom: 0.5em; }
-        @media screen and (min-width: 53.75em) {
-          .hero .hero-inner .hero-copy h1 {
-            font-size: 1.8em; } }
->>>>>>> origin/master
       .hero .hero-inner .hero-copy p {
         font-weight: 200;
         line-height: 1.4em;
@@ -3999,29 +3950,28 @@ sidebar {
           .hero .hero-inner .hero-copy p {
             font-size: 1.1em;
             max-width: 40%; } }
-    .hero .hero-inner button {
-      background-color: #477DCA;
-      border-radius: 3px;
-      border: none;
-      color: white;
-      display: inline-block;
-      font-size: inherit;
-      font-weight: bold;
-      padding: 7px 18px;
-      text-decoration: none;
-      background-clip: padding-box;
-      padding: 0.7em 1em; }
-      .hero .hero-inner button:hover:not(:disabled) {
-        background-color: #578ad4;
-        cursor: pointer; }
-      .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
-        background-color: #3c71bb;
-        cursor: pointer; }
-      .hero .hero-inner button:disabled {
-        opacity: 0.5;
-        cursor: not-allowed; }
+  .hero button {
+    background-color: #477DCA;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: inherit;
+    font-weight: bold;
+    padding: 7px 18px;
+    text-decoration: none;
+    background-clip: padding-box;
+    padding: 0.7em 1em; }
+    .hero button:hover:not(:disabled) {
+      background-color: #578ad4;
+      cursor: pointer; }
+    .hero button:active:not(:disabled), .hero button:focus:not(:disabled) {
+      background-color: #3c71bb;
+      cursor: pointer; }
+    .hero button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed; }
 
-<<<<<<< HEAD
 .business_size {
   display: -webkit-box;
   display: -moz-box;
@@ -4195,8 +4145,6 @@ sidebar {
   background-image: url("../css/bgimg/50employeeshover.svg");
   margin-left: 5%; }
 
-=======
->>>>>>> origin/master
 .parallax-window {
   height: 60em;
   overflow: hidden;
@@ -4221,7 +4169,6 @@ sidebar {
   position: absolute;
   top: -20em;
   width: 100%; }
-<<<<<<< HEAD
 
 .whychoosehero {
   opacity: 0;
@@ -4544,5 +4491,3 @@ article {
     -moz-flex-direction: column;
     flex-direction: column;
     -ms-flex-direction: column; } }
-=======
->>>>>>> origin/master

@@ -164,6 +164,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/assets\/css\/4-pages\/smallBusiness.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/4-pages\/smallBusiness.sass",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/css\/smallBusiness.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/_site\/assets\/css\/bgimg\/coffeeshop.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -171,6 +187,17 @@
 		"initialSize": 101862,
 		"inputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/coffeeshop.jpg",
 		"outputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/coffeeshop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/css\/bgimg\/hero1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.24779e+06,
+		"inputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/hero1.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/hero1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -200,12 +227,34 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/assets\/js\/functions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/functions.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/assets\/js\/jquery-2.1.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/js\/jquery-2.1.1.min.js",
 		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/jquery-2.1.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/assets\/js\/min\/functions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions-min.js",
+		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/min\/functions-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -244,6 +293,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589695,
+		"inputAbbreviatedPath": "\/_site\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/hero.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -251,6 +311,39 @@
 		"initialSize": 2.82217e+06,
 		"inputAbbreviatedPath": "\/_site\/img\/hero.jpeg",
 		"outputAbbreviatedPath": "\/_site\/img\/hero.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/hero1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589695,
+		"inputAbbreviatedPath": "\/_site\/img\/hero1.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/hero1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/nespresso.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80488,
+		"inputAbbreviatedPath": "\/_site\/img\/nespresso.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/nespresso.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/nespressocapsule.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60372,
+		"inputAbbreviatedPath": "\/_site\/img\/nespressocapsule.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/nespressocapsule.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3891,14 +3984,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/4-pages\/smallBusiness.html": {
-		"fileType": 8192,
-		"ignore": 0,
+	"\/assets\/css\/4-pages\/smallBusiness.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/smallBusiness.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/smallBusiness.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/smallBusiness.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
 		},
 	"\/assets\/css\/5-sections\/_-sections-index.sass": {
 		"createSourceMap": 0,
@@ -4058,15 +4158,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
-		},
-	"\/assets\/css\/main[Conflict].css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/main[Conflict].css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/js\/functions.js": {
 		"fileType": 64,

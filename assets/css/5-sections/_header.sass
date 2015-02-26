@@ -1,26 +1,21 @@
 +tablet
     header
         display: none
-    
     .content
         position: relative
         z-index: 0
-        
-    a, sidebar, ul 
+    a, sidebar, ul
         font-family: $ocsHeadFont
         margin: 0
         padding: 0
-        
     .logo
         z-index: -1
         +display(flex)
-        justify-content: center
-        
+        height: 150px
         img
-            width: 90%
+            +flex-grow(3)
         &:hover
             color: yellow
-
     .button
         z-index: 1
         display: inline-block
@@ -34,15 +29,13 @@
         color: white
         font-size: 30px
         font-weight: 900
-        transition: .5s
+        transition: 0.5s
         line-height: 1.1
-
-        &:hover 
+        &:hover
             z-index: 1
             background-color: $ocs-black
             color: $ocs-white
-
-    #sidebar 
+    #sidebar
         z-index: 1
         width: 200px
         position: fixed
@@ -52,121 +45,103 @@
         overflow-y: hidden
         background-color: $ocs-red
         transform: translate(-250px, 0)
-        transition: .3s
+        transition: 0.3s
         box-shadow: 3px 0 5px $ocs-black
-        ul li 
-            transition: .3s 
-            border-left: 35px solid $ocs-black
+        ul li
+            transition: 0.3s
+            border-left: 40px solid $ocs-black
             border-bottom: 1px solid $ocs-offwhite
-
-
             &:after
                 content: ""
                 height: 100%
                 left: 0
                 top: 0
                 width: 0px
-                position: absolute 
-                transition: all 0.3s ease 0s 
+                position: absolute
+                transition: all 0.3s ease 0s
                 -webkit-transition: all 0.3s ease 0s
                 z-index: -1
-
-            
-        ul li a 
+        ul li a
+            font-family: $ocsHeadBold
             color: $ocs-offwhite
             display: block
-            font-size: 1.3em
-            line-height: 102%
+            font-size: 1.1em
+            font-weight: 900
             text-decoration: none
-            padding: 20px 20px
-            transition: .3s
-            
-            &:hover a 
+            padding: 20px 5px
+            transition: 0.3s
+            &:hover a
                 color: $ocs-offwhite
         .social-side-contain
             margin-left: 2px
             margin-top: 10px
-
         .sidebar-head
             margin-top: 10px
-
         #social-side
             +size(37px)
             rect
                 fill: $ocs-red
                 &:hover
                     fill: $ocs-black
-          
     .hvr-sweep-to-right:after
         transition-duration: 2s
-    
     .hvr-sweep-to-right:before
-        background: $ocs-black 
-
-    .icon-mobile       
+        background: $ocs-black
+    .icon-mobile
         width: 20px
-        height: 20px
+        height: 21px
         padding-right: 20px
-        margin-left: -25px
-
-    .button:focus + #sidebar 
+        margin-left: -20px
+    .button:focus + #sidebar
         transform: translate(0px, 0)
         z-index: 1
-
-    .button:focus 
+    .button:focus
         background-color: $ocs-black
         transform: translate(205px, 0)
         z-index: 1
-
-    .button:focus 
+    .button:focus
         transform: translate(210px, 0)
         z-index: 1
-
-    body 
+    body
         overflow-x: hidden
-            
+
+
 +desktop
     .button
         display: none
-        
     #sidebar
         display: none
-
     header
-        display: flex
-        background-color: rgba(242, 242, 242, 1)
+        +display(flex)
+        background-color: $ocs-white
         background-size: 100px
-        flex-direction: row
-        flex-wrap: wrap
-        justify-content: center
+        +flex-direction(row)
+        +flex-wrap(no-wrap)
+        +justify-content(center)
         z-index: 0
-
+        margin-left: 100px
     .logo
-        width: 20vw
+        background-color: $ocs-white
         position: absolute
-
         img
-            margin-bottom: -130px
-
+            margin-top: 4px
+            width: 95%
     nav
         margin: 5px 0 0 40px
         padding: 0 0 0 35px
         color: black
-        flex-direction: row
-        flex-wrap: wrap
+        +flex-direction(row)
+        +flex-wrap(wrap)
         justify-content: center
-
         a
             padding: 1px 20px 1px 20px
             color: black
             margin: 0
-
         .nav-design
             color: black
             justify-content: center
-
         #top
-            font-family: 'FuturaHead'
+            font-family: "FuturaHead"
             font-size: 18px
             color: black
             flex-direction: column
@@ -175,24 +150,21 @@
             width: 100%
             margin-left: 13.5%
             text-transform: lowercase
-
         #bottom
-            font-family: 'FuturaHead'
+            font-family: "FuturaHead"
             font-size: 26px
             text-transform: uppercase
-            background-color: rgba(242, 242, 242, 1)
+            background-color: $ocs-white
             padding-top: 35px
             color: black
             flex-direction: column
             justify-content: center
             width: 100%
             margin-left: 15px
-
         .homeCoffee
             color: $ocs-red
             &:hover
                 color: $ocs-black
-            
         .free-trial a
             font-size: 26px
             background-color: rgba(242, 42, 42, 1)
@@ -202,4 +174,4 @@
             &:hover
                 background-color: $ocs-black
                 color: $ocs-red
-                padding: 4px 20px 9px 20px        
+                padding: 4px 20px 9px 20px

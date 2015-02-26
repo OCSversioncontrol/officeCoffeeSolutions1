@@ -1,0 +1,65 @@
+article
+  +display(flex)
+
+.article > *
+  margin: 20px
+
+.article h3
+  text-transform: uppercase
+  font-size: 3em
+
+.article a
+  font-size: 2em
+
+.article
+  +display(flex)
+  +justify-content(center)
+  width: 80%
+  margin: 0% 10%
+  opacity: 0
+  
+  .var-item1
+    +display(flex)
+    +flex-wrap(wrap)
+    +flex-direction(column)
+    +flex(1)
+    img
+      height: 214px
+    +tablet
+      img
+        height: 400px
+    +mobile
+      img
+        height: 280px
+    
+  
+  .var-item2
+    +display(flex)
+    +flex-direction(column)
+    +flex(1)
+    img
+      height: 214px
+    +tablet
+      img
+        height: 400px
+    +mobile
+      img
+        height: 280px  
+
+  .var-item3
+    +display(flex)
+    +flex-direction(column)
+    +flex(1)
+    img
+      height: 214px
+    +tablet
+      img
+        height: 400px
+    +mobile
+      img
+        height: 280px
+
++tablet
+  article
+    +display(flex)
+    +flex-direction(column)

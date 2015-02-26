@@ -1,36 +1,26 @@
 $( document ).ready(function() {
 
-  //
-    $(document).ready(function() {
-  if ($("#js-parallax-window").length) {
-    parallax();
-  }
+$(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.article, .whychoosehero, .serviceshero').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 200;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+        }); 
+    
+    });
 });
-
-$(window).scroll(function(e) {
-  if ($("#js-parallax-window").length) {
-    parallax();
-  }
-});
-
-function parallax(){
-  if( $("#js-parallax-window").length > 0 ) {
-    var plxBackground = $("#js-parallax-background");
-    var plxWindow = $("#js-parallax-window");
-
-    var plxWindowTopToPageTop = $(plxWindow).offset().top;
-    var windowTopToPageTop = $(window).scrollTop();
-    var plxWindowTopToWindowTop = plxWindowTopToPageTop - windowTopToPageTop;
-
-    var plxBackgroundTopToPageTop = $(plxBackground).offset().top;
-    var windowInnerHeight = window.innerHeight;
-    var plxBackgroundTopToWindowTop = plxBackgroundTopToPageTop - windowTopToPageTop;
-    var plxBackgroundTopToWindowBottom = windowInnerHeight - plxBackgroundTopToWindowTop;
-    var plxSpeed = 0.35;
-
-    plxBackground.css('top', - (plxWindowTopToWindowTop * plxSpeed) + 'px');
-  }
-}
 
 
 });

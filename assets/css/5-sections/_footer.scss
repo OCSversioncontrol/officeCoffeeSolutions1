@@ -96,3 +96,41 @@
     text-align: center;
   }
 }
+
+#ocs_footer {  
+  @include animation(play 3s ease-in-out infinite);
+}
+
+.logo_animate {
+  width: 243px;
+  height: 87px;
+  background: url('http://i.imgur.com/x4v7QkL.png');
+  position: relative;
+  left: 44%;
+  margin-bottom: 1%;
+  opacity: 1;
+
+  @include tablet {
+    left: 36.5%;
+  }
+  @include mobile {
+    left: 28%;
+  }
+}
+
+@-webkit-keyframes play {
+  50% { opacity: 0.3;}
+} 
+@-moz-keyframes play {
+  50% { background: url('http://i.imgur.com/Q7jV3PF.png');}
+} 
+@-ms-keyframes play {
+  50% { background: url('http://i.imgur.com/Q7jV3PF.png');}
+} 
+@-o-keyframes play {
+  50% { background: url('http://i.imgur.com/Q7jV3PF.png');}
+} 
+
+@keyframes play {
+  50% { background: url('http://i.imgur.com/Q7jV3PF.png');}
+} 

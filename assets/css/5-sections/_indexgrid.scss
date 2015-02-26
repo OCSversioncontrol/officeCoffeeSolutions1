@@ -1,141 +1,161 @@
-@mixin grid-item-columns($columns) {
-  width: (100% / 12) * $columns;
-}
-
-#content {
-    margin: 4em 0 4em 0 !important;
-}
-
-.grid-items {
-  ///////////////////////////////////////////////////////////////////////////////////
-  $base-accent-color: $ocs-red !default;
-  $base-background-color: white !default;
-  $medium-screen: em(640) !default;
-  $large-screen: em(860) !default; 
-
-  p {
-    line-height: 1.5em;
-  }
-
-  a {
-    text-decoration: none;
-  }
-  //////////////////////////////////////////////////////////////////////////////////
-
-  $grid-items-background: $base-background-color;
-  $grid-item-background: desaturate($base-accent-color, 1%);
-  $grid-item-colors: 
-    desaturate($base-accent-color, 10%), 
-    $ocs-red, 
-    $ocs-black,
-    $ocs-black,
-    $ocs-red, 
-    $ocs-black,
-    $ocs-red;
-  $grid-item-border-size: 9px;
-  $grid-item-columns: 4;
-  $grid-item-big-columns: 8;
-  $grid-item-color: white;
-  $grid-item-height: 14em;
-
-  @include clearfix;
-    
-  .grid-item {
-    @include transition (all 0.2s ease-in-out);
-    background: $grid-item-background;
-    border-bottom: $grid-item-border-size solid $grid-items-background;
-    border-left: ($grid-item-border-size / 2) solid $grid-items-background;
-    border-right: ($grid-item-border-size / 2) solid $grid-items-background;
-    border-top: 0;
-    cursor: pointer;
-    float: left;
-    height: $grid-item-height;
-    overflow: hidden;
-    outline: none;
-    padding: 2em;
-    text-align: center;
-    width: 100%;
-
-    @include media($large-screen) {
-      @include grid-item-columns($grid-item-columns);
-    }
-
-    @for $i from 1 through length($grid-item-colors) { // assign colors from $grid-item-colors list
-      &:nth-child(#{$i}) {
-        $background-from-list: nth($grid-item-colors, $i);
-        background-color: $background-from-list;
-        box-shadow: inset 0px 0px 2px 3px darken($background-from-list, 5%);
-
-        &:focus,
-        &:hover {
-          background-color: darken($background-from-list, 90%);
-          background-repeat: no-repeat;
-          background-position: top;
-          background-size: cover;
-        }
-      }
-    }
-  }
-
-
-  .grid-item img {
-      display: block;
-      @include size(5em);
-      margin-bottom: 1em;
-      margin: auto;
-    }
-
-  #business img {
-      @include size(5em);  }
-
-  .grid-item h1 {
-      color: $grid-item-color;
-      font-size: 2em;
-      margin-bottom: 0.4em;
-    }
-
-  .grid-item p {
-      font-size: 1.2em;
-      margin: auto;
-      color: transparentize($grid-item-color, 0.3);
-      
-      @include media($medium-screen) {
-        max-width: 70%;
-      }
-    }
-
-  .grid-item-big {
-    @include media($large-screen) {
-      @include grid-item-columns($grid-item-big-columns);
-    }
-    p {
-      @include media($medium-screen) {
-        max-width: 60%;
-      }  
-    }
-  }
-
-  .grid-item-image {
-    background: url("../css/bgimg/coffeeshop.jpg");
-    background-color: $grid-item-background;
-    background-position: middle;
+.hero {
+    ///////////////////////////////////////////////////////////////////////////////////
+    $base-border-radius: 3px !default;
+    $base-accent-color: #477DCA !default;
+    $large-screen: em(860) !default;
+    //////////////////////////////////////////////////////////////////////////////////
+    $hero-background-top: #7F99BE;
+    $hero-background-bottom: #20392B;
+    $hero-color: white;
+    $gradient-angle: 10deg;
+    $hero-image: "../css/bgimg/hero1.jpg";
+    @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat center center $hero-background-top scroll);
+    background-color: #324766;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    &:focus,
-    &:hover {
-          background: none;
-          background-color: darken($ocs-red, 100%);
-          background-repeat: no-repeat;
-          background-position: top;
-          background-size: cover;
+    padding-bottom: 14em;
+
+    .hero-logo img {
+        width: 700px;
+        padding: 5px;
+        border: 5px solid transparent;
+
+        &:hover {
+            border: 5px solid $ocs-red;
+            @include transition(border 0.7s ease-in-out);
         }
-  }
-}
-#black h1 p {
-    color: $ocs-black;
+        @include media($large-screen) {
+            margin-bottom: -2em;
+        }
+    }
+    .hero-inner {
+        @include outer-container;
+        @include clearfix;
+        color: $hero-color;
+        margin: auto;
+        padding: 3.5em;
+        text-align: center;
+        .hero-copy {
+            text-align: center;
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 0.5em;
+                color: $ocs-white;
+                @include media($large-screen) {
+                    font-size: 3em;
+                }
+            }
+            p {
+                font-weight: 200;
+                line-height: 1.4em;
+                margin: 0 auto 3em auto;
+                @include media($large-screen) {
+                    font-size: 1.1em;
+                    max-width: 40%;
+                }
+            }
+        }
+        button {
+            @include button(flat, $base-accent-color);
+            padding: 0.7em 1em;
+        }
+    }
 }
 
-#test {
-  width: 50px;
+.business_size {
+    @include display(flex);
+    @include flex-direction(column);
+    @include justify-content(center);
+    max-width: 1980px;
+    margin: 0;
+    @media screen and (max-width: 800px) {}
+  background-color: $ocs-white;
 }
+
+.business_size h1 {
+    font-size: 3em;
+    margin-bottom: -0.1em;
+    @include display(flex);
+    @include justify-content(center);
+    @media screen and (max-width: 800px) {
+        font-size: 2.5em;
+    }
+}
+
+.business_size p {
+  @include display(flex);
+  @include justify-content(center);
+  font-size: 1.5em;
+  margin-bottom: 3%;
+}
+
+.business_selector {
+    @include display(flex);
+    @include justify-content(center);
+}
+
+.business_selector img {
+    width: 34%;
+    height: 33%;
+}
+
+.choose_sustain {
+    @include display(flex);
+    @include flex-grow(1);
+    background: yellow;
+    @media screen and (max-width: 800px) {
+        @include flex-direction(column);
+    }
+}
+
+.learn_more {
+    background: pink;
+    @include align-self(flex-end);
+}
+
+.container1 {
+@include display(flex);
+@include justify-content(center);
+font-size: 2em;
+background-size: 100%;
+padding-bottom: 3%;
+background-color: $ocs-white;
+width: 80%;
+margin: 0% 10%;
+}
+
+.small, .medium, .large {
+  width: 27%;
+      height: 0;
+      padding-bottom: 27%;
+      background-position: 0 0;
+      background-size: 100%;
+      -webkit-transition: background-position 0.2s ease-in-out;
+      transition: background-position 0.2s ease-in-out;
+      @media screen and (max-width: 1000px) {
+        width: 33%;
+        padding-bottom: 30%;
+    }
+
+
+      &:hover {
+        background-position: 0 100%;
+      }
+}
+
+.small {
+      background-image: url('../css/bgimg/smallcompanyhover.svg');
+      
+    }
+
+.medium {
+      background-image: url('../css/bgimg/medcompanyhover.svg');
+      margin-left: 5%;
+    }
+
+.large {
+      background-image: url('../css/bgimg/50employeeshover.svg');
+      margin-left: 5%;
+
+    }

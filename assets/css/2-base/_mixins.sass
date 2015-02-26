@@ -5,3 +5,7 @@
 @mixin desktop 
   @media (min-width: #{$desktop-width}) 
     @content
+
+@mixin mobile
+  @media (min-width: #{$phone-width - 800px}) and (max-width: #{$phone-width})
+    @content

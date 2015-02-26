@@ -175,26 +175,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/css\/bgimg\/hero1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.24779e+06,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/hero1.jpg",
-		"outputAbbreviatedPath": "\/_site\/assets\/css\/bgimg\/hero1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/assets\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -211,15 +191,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/_site\/assets\/css\/main[Conflict].css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/main[Conflict].css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/jekyll\/update\/2015\/01\/23\/welcome-to-jekyll.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -229,34 +200,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/js\/functions.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/js\/functions.js",
-		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/assets\/js\/jquery-2.1.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/assets\/js\/jquery-2.1.1.min.js",
 		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/jquery-2.1.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_site\/assets\/js\/min\/functions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/js\/min\/functions-min.js",
-		"outputAbbreviatedPath": "\/_site\/assets\/js\/min\/min\/functions-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -302,39 +251,6 @@
 		"initialSize": 2.82217e+06,
 		"inputAbbreviatedPath": "\/_site\/img\/hero.jpeg",
 		"outputAbbreviatedPath": "\/_site\/img\/hero.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/hero1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 589695,
-		"inputAbbreviatedPath": "\/_site\/img\/hero1.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/nespresso.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 80488,
-		"inputAbbreviatedPath": "\/_site\/img\/nespresso.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/nespresso.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/nespressocapsule.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60372,
-		"inputAbbreviatedPath": "\/_site\/img\/nespressocapsule.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/nespressocapsule.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4111,7 +4027,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 589695,
+		"initialSize": 1.24779e+06,
 		"inputAbbreviatedPath": "\/assets\/css\/bgimg\/hero1.jpg",
 		"outputAbbreviatedPath": "\/assets\/css\/bgimg\/hero1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4218,6 +4134,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589695,
+		"inputAbbreviatedPath": "\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputAbbreviatedPath": "\/img\/fN6hZMWqRHuFET5YoApH_StBalmainCoffee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4244,7 +4171,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 41964,
+		"initialSize": 80488,
 		"inputAbbreviatedPath": "\/img\/nespresso.jpg",
 		"outputAbbreviatedPath": "\/img\/nespresso.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4255,7 +4182,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 58511,
+		"initialSize": 60372,
 		"inputAbbreviatedPath": "\/img\/nespressocapsule.jpg",
 		"outputAbbreviatedPath": "\/img\/nespressocapsule.jpg",
 		"outputPathIsOutsideProject": 0,

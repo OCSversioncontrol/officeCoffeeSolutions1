@@ -4,7 +4,7 @@ $(function() {
     $(window).scroll( function(){
     
        
-        $('.article, .whychoosehero, .serviceshero').each( function(i){
+        $('.article, .whychoosehero, .serviceshero, .productivity, .easeofmind, .equipmentneed, .rangeofservices, .officehero').each( function(i){
             
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -21,6 +21,5 @@ $(function() {
     
     });
 });
-
 
 });

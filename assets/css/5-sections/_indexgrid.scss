@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .hero {
     ///////////////////////////////////////////////////////////////////////////////////
     $base-border-radius: 3px !default;
@@ -55,14 +54,14 @@
                     font-size: 1.1em;
                     max-width: 40%;
                 }
-            }
+            } 
+          }
         }
         button {
             @include button(flat, $base-accent-color);
             padding: 0.7em 1em;
         }
     }
-}
 
 .business_size {
     @include display(flex);
@@ -71,7 +70,7 @@
     max-width: 1980px;
     margin: 0;
     @media screen and (max-width: 800px) {}
-  background-color: $ocs-white;
+    background-color: $ocs-white;
 }
 
 .business_size h1 {
@@ -129,7 +128,7 @@ margin: 0% 10%;
 .small, .medium, .large {
   width: 27%;
       height: 0;
-      padding-bottom: 27%;
+      padding-bottom: 26.9%;
       background-position: 0 0;
       background-size: 100%;
       -webkit-transition: background-position 0.2s ease-in-out;
@@ -142,86 +141,33 @@ margin: 0% 10%;
 
       &:hover {
         background-position: 0 100%;
-=======
-.hero {  
-  ///////////////////////////////////////////////////////////////////////////////////
-  $base-border-radius: 3px !default;
-  $base-accent-color: #477DCA !default;
-  $large-screen: em(860) !default;
-  //////////////////////////////////////////////////////////////////////////////////
-
-  $hero-background-top: #7F99BE; 
-  $hero-background-bottom: #20392B;
-  $hero-color: white;
-  $gradient-angle: 10deg;
-  $hero-image: '../css/bgimg/hero1.jpg';
-
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat center $hero-background-top scroll);
-  background-color: #324766;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 3em;
-
-  .hero-logo img {
-    height: 4em;
-    margin-bottom: 2em;
-  }
-
-  .hero-inner {
-    @include outer-container;
-    @include clearfix;
-    color: $hero-color;
-    margin: auto;
-    padding: 3.5em;
-    text-align: center;
-
-    .hero-copy {
-      text-align: center;
-      
-      h1 {
-        font-size: 1.6em;
-        margin-bottom: 0.5em;
-
-        @include media($large-screen) {
-          font-size: 1.8em;
-        }
       }
+    }
 
-      p {
-        font-weight: 200;
-        line-height: 1.4em;
-        margin: 0 auto 3em auto; 
-
-        @include media($large-screen) {
-          font-size: 1.1em;
-          max-width: 40%;
-        }
->>>>>>> origin/master
-      }
-}
-
-<<<<<<< HEAD
 .small {
       background-image: url('../css/bgimg/smallcompanyhover.svg');
-      
+      position: relative
     }
 
 .medium {
       background-image: url('../css/bgimg/medcompanyhover.svg');
       margin-left: 5%;
+            position: relative
+
     }
 
 .large {
       background-image: url('../css/bgimg/50employeeshover.svg');
       margin-left: 5%;
+            position: relative
 
     }
-=======
-    button {
-      @include button(flat, $base-accent-color);
-      padding: 0.7em 1em;
-    }
-  }
+
+.link-spanner {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;
 }
->>>>>>> origin/master

@@ -4670,8 +4670,12 @@ sidebar {
     display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     height: 150px;
     padding: 2%; }
+=======
+    height: 150px; }
+>>>>>>> origin/master
     .logo img {
       -webkit-flex-grow: 3;
       -moz-flex-grow: 3;
@@ -4824,11 +4828,18 @@ sidebar {
 
   .logo {
     background-color: white;
+<<<<<<< HEAD
     position: absolute;
     width: 20em; }
     .logo img {
       margin-top: 4%;
       width: 88.5%; }
+=======
+    position: absolute; }
+    .logo img {
+      margin-top: 4px;
+      width: 95%; }
+>>>>>>> origin/master
 
   nav {
     margin: 5px 0 0 40px;
@@ -5272,13 +5283,27 @@ sidebar {
   margin-left: 5%;
   position: relative; }
 
+<<<<<<< HEAD
 .link-spanner {
   position: absolute;
+=======
+.parallax-window {
+  height: 60em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+>>>>>>> origin/master
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
+<<<<<<< HEAD
   z-index: 1; }
+=======
+  position: absolute;
+  top: -20em;
+  width: 100%; }
+>>>>>>> origin/master
 
 .whychoosehero {
   opacity: 0;

@@ -4672,6 +4672,7 @@ sidebar {
     display: flex;
     height: 150px;
     padding: 2%; }
+
     .logo img {
       -webkit-flex-grow: 3;
       -moz-flex-grow: 3;
@@ -5271,14 +5272,6 @@ sidebar {
   background-image: url("../css/bgimg/50employeeshover.svg");
   margin-left: 5%;
   position: relative; }
-
-.link-spanner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1; }
 
 .whychoosehero {
   opacity: 0;
